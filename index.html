@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <title>Prueba JS junior's</title>
+</head>
+<body>
+    <section class="contenedor">
+        <div>
+            <div class="contenedor__crear">
+                <label for="nuevo_nombre">nuevo nombre</label>
+                <input id="nombre_nuevo" type="text" placeholder="escriba el nombre">
+                <input type="submit" onclick="crear()" value="crear">
+            </div>
+            <div class="contenedor__opciones">
+                <input type="submit" onclick="borrar()" value="borrar">
+                <input type="submit" onclick="actualizar()" value="actualizar">
+                <label for="viejo_nombre">viejo nombre</label>
+                <input id="nombre_viejo" type="text" placeholder="escriba el nombre">
+            </div>
+            <div class="contenedor__mostrar">
+                <button onclick="mostrar()">Mostrar todos</button>
+            </div>
+        </div> 
+    </section>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>

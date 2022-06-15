@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 80%;
+    height: auto;
+
+}
+.contenedor__crear{
+    margin: 20px 0px;
+    padding: 5px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.contenedor__crear label{
+    width: 100%;
+    text-align: center; 
+}
+.contenedor__crear input{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 4px;
+}
+.contenedor__opciones{
+    margin: 20px 0px;
+    padding: 5px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.contenedor__opciones label{
+    width: 100%;
+    text-align: center; 
+}
+.contenedor__opciones input{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 4px;
+}
+.contenedor__mostrar{
+    margin: 20px 0px;
+    padding: 5px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.contenedor__mostrar button{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 4px;
+}
