@@ -1,5 +1,5 @@
 async function getUsers() {
-    let url = 'https://rickandmortyapi.com/api/character';
+    let url = 'http://127.0.0.1:3000/mostrar';
     try {
         let res = await fetch(url);
         return await res.json();
@@ -8,14 +8,17 @@ async function getUsers() {
     }
 }
 
+//res --> response
+//req --> request
+
 async function renderUsers() {
     let data = await getUsers();
-    console.log(data.results)
-    let users = data.results
+    let users = data
     let html = '';
+
     users.forEach(user => {
         let htmlSegment =   `<div>
-                                <img src="${user.image}">
+                                <img class="imagen-standard" src="${user.image}">
                                 <button onClick="getCharacter(${user.id})">Buscar</button>
                             </div>`;
         html += htmlSegment
@@ -46,6 +49,7 @@ function modalClose(){
     let modal = document.querySelector('.modal');
     modal.classList.remove("mostrar");
 }
+
 
 async function getUser(id) {
     let url = 'https://rickandmortyapi.com/api/character/'+id;
