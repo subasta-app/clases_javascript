@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hanged</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Bienvenido al ahorcado</h3>
+
+        <p> descubre que marca de auto es la siguiente tienes los siguientes intentos: </p>
+        <p id="lifes"></p>
+        <div class="container__caegories">
+            <label for="category">Auto</label>
+            <input type="radio" value="Autos" name="category" id="autos" onchange="selectCategory()">
+            <label for="category">Animal</label>
+            <input type="radio" value="Animales" name="category" id="animals" onchange="selectCategory()">
+        </div>
+        <div id="container__letters"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

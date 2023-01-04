@@ -1,0 +1,23 @@
+.empty__button{
+    background-color: rgb(133, 249, 249);
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 15px 6px 3px 1px;
+    margin: 15px 5px;
+    padding: 15px;
+}
+
+.empty__button:hover{
+    background-color: rgba(5, 64, 64, 0.258);
+    border: 2px solid black;
+}
+
+
+.cross{
+    background-color: blue;
+}
+.circle{
+    background-color: red;
+}
+
