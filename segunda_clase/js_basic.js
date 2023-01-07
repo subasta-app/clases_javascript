@@ -52,6 +52,7 @@ if(fruits.indexOf(fruiToUpdate) > -1){
 };
 
 
+
 // escriban un condicional que reciba dos variables una para indicar que voy hacer y otra para agregar borrar o actualizar segun el caso
 //ejemplo
 // crear, borrar, acualizar, buscar y confirmar , buscar todos
