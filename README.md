@@ -5,3 +5,13 @@
 + operadores (aritmeticos, logicos)
 + bucles o ciclos
 + Funciones
+
+
++ how to use fs
++ class
++ export 
++ async await
++ promise
+
++ framework nest primer backend
++ react
