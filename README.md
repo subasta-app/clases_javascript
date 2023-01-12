@@ -7,8 +7,9 @@
 + Funciones
 
 
-+ how to use fs
+
 + class
++ how to use fs
 + export 
 + async await
 + promise
