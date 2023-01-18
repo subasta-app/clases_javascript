@@ -14,4 +14,4 @@
 + promise
 
 + framework nest primer backend
-+ react
++ react framework frontend
