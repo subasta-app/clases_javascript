@@ -5,12 +5,11 @@
 + operadores (aritmeticos, logicos)
 + bucles o ciclos
 + Funciones
-
-
-
 + class
++ export
+
+
 + how to use fs
-+ export 
 + async await
 + promise
 
