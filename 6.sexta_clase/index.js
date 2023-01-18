@@ -11,3 +11,5 @@ console.log(camilo.name)
 console.log(camilo.gender)
 
 camilo.verifyGender();
+
+//vanilla javascript
