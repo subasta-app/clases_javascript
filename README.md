@@ -9,9 +9,9 @@
 + export
 
 
-+ how to use fs
 + async await
 + promise
 
++ how to use fs
 + framework nest primer backend
 + react framework frontend
