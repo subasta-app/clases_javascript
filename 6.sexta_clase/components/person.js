@@ -17,4 +17,6 @@ class Person{
     // crear funcion para colocar Capitalize al name, van a verificar que age sea un number 
 }
 
+    
+
 export default Person;

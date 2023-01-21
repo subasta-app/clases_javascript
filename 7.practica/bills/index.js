@@ -11,6 +11,7 @@ class Bill{
         this.iva = new Tax().iva(this.subTotalPrice),
         this.reteica = new Tax().reteica(this.subTotalPrice),
         this.taxes = new Tax(this.subTotalPrice).taxes,
+        this.alimentosUltraprocesados = new Tax(this.subTotalPrice),
         this.totalPrice = this.subTotalPrice - this.taxes
     }
     //metodos
