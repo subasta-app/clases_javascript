@@ -15,5 +15,9 @@ export default class Tax{
         return subTotal * 0.20
     }
 
+    peaje(subTotal){
+        return subTotal * 0.30
+    }
+
 }
 
