@@ -35,7 +35,7 @@ class BillSerializer {
 
         let customerData = new Customer(this.customerData)        
         return {
-            "customer":customerData.organizeData(),
+            "customer":customerData.dataCustomer,
             "factura":this.organizeBills(),
             "precioTotal":this.totalBillPrice()
         }
