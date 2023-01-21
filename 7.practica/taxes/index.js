@@ -1,6 +1,6 @@
 export default class Tax{
     constructor(subTotalValue){
-        this.taxes = this.iva(subTotalValue) + this.reteica(subTotalValue) + this.tax_by_breathe(subTotalValue) + this.alimentosUltraprocesados(subTotalValue) + this.peaje(subTotal)
+        this.taxes = this.iva(subTotalValue) + this.reteica(subTotalValue) + this.tax_by_breathe(subTotalValue) + this.alimentosUltraprocesados(subTotalValue) + this.peaje(subTotalValue)
     }
 
     iva(subTotal){
@@ -12,15 +12,15 @@ export default class Tax{
     }
 
     tax_by_breathe(subTotal){
-        return subTotal * 0.5
+        return subTotal * 0.05
     }
 
     alimentosUltraprocesados(subTotal){
-        return subTotal * 0.20
+        return subTotal * 0.02
     }
 
     peaje(subTotal){
-        return subTotal * 0.30
+        return subTotal * 0.03
     }
 
 }
