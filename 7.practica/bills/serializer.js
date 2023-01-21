@@ -1,4 +1,4 @@
-import Customer from '../customer/index.js'
+import Customer from '../customers/index.js'
 class BillSerializer {
     constructor(arrayBills,customerData){
         this.data = arrayBills

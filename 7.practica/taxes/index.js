@@ -1,6 +1,6 @@
 export default class Tax{
     constructor(subTotalValue){
-        this.taxes = this.iva(subTotalValue) + this.reteica(subTotalValue)
+        this.taxes = this.iva(subTotalValue) + this.reteica(subTotalValue) + this.tax_by_breathe(subTotalValue)
     }
 
     iva(subTotal){
@@ -9,6 +9,10 @@ export default class Tax{
 
     reteica(subTotal){
         return subTotal * 0.10
+    }
+
+    tax_by_breathe(subTotal){
+        return subTotal * 0.5
     }
 
 }
