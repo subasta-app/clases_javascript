@@ -5,6 +5,8 @@ let customerData = {
     "name":"Joselito",
     "address":"calle falsa 123",
     "phone":"3161232323"
+    // ingrese tipo documento y numero de documento legal_id_type(cc,ce,pp,nit) legal_id
+    // el programa debe reconocer si es empresa o persona natural y solo colocar los impuestos que corresponde a cada uno
 }
 
 let dataBills = [
