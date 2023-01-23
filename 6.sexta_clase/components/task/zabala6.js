@@ -2,14 +2,32 @@
 
 
 
-// const publicacion = "freeCodeCamp";
+const string = "cristian";
 
-// publicacion[0].toUpperCase();
+function capitalize(str) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
 
-// console.log(publicacion);
+capitalize(string);
 
-const publicacion = "freeCodeCamp";
+console.log(capitalize(string));
 
-publicacion[0].toUpperCase();
 
-console.log(publicacion);
+let age = "hola";
+
+if(age == Number()){
+
+  console.log("its number")
+
+
+} else{
+  console.log("Not a Number")
+}
+
+
+
+function isNum(val){
+  return !isNaN(val)
+}
+console.log(isNum(12));    
+
