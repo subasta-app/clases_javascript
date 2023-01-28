@@ -10,8 +10,8 @@
 + async await
 + promise
 
-+ node + express
-+ framework nest primer backend
++ node + express one week primer backend
++ framework nest 
 + how to use fs
 
 + react framework frontend
