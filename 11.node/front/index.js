@@ -7,7 +7,7 @@ async function llamandoARick() {
 
     characters = response.data
     characters.forEach(character => {
-        let newElementHtml = `<div class="container"><div class="name" ><p> ${character.name} <p></div><div class="image"> <img src="${character.image}" alt=""></div></div> `
+        let newElementHtml = `<div class="container"><div class="name" ><p> ${character.name} <p></div><div class="image"> <img class="image__car" src="${character.image}" alt=""></div></div> `
         insertHtml = insertHtml + newElementHtml
     })
 
