@@ -7,11 +7,11 @@
 + Funciones
 + class
 + export
-
-
 + async await
 + promise
 
++ node + express one week primer backend
++ framework nest 
 + how to use fs
-+ framework nest primer backend
+
 + react framework frontend
