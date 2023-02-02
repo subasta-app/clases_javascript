@@ -20,3 +20,35 @@ html{
 .image img{
     height: 220px;
 }
+
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.form__container{
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.8);
+}
+.input_general{
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    margin: 5px;
+    text-align: left;
+}
+.input_general label{
+    width: 25%;
+}

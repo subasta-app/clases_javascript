@@ -11,6 +11,26 @@
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="form">
+        <div class="form__container"> 
+            <div class="input_general id__value">
+                <label for="id">ID:</label>
+                <input type="number" placeholder="Add ID" id="idValue">
+            </div>
+            <div class="input_general name__value">
+                <label for="name">Name:</label>
+                <input type="text" placeholder="Add Name" id="name">
+            </div>
+            <div class="input_general email__value">
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Add email" id="email">
+            </div>
+            <div class="input_general button_value">
+                <button onclick="postData()">Agregar</button>
+            </div>
+        </div>
+        
+    </div>
     <div id="characters" class="characters"></div>
     <script src="./index.js"></script>
 </body>

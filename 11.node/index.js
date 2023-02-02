@@ -1,5 +1,7 @@
 const express = require('express')
 const cors = require('cors');
+const bodyParser = require('body-parser')
+const db = require('./queries')
 
 const app = express()
 const port = 3000
@@ -7,6 +9,13 @@ const port = 3000
 app.use(cors({
     origin: 'http://127.0.0.1:5501'
 }));
+
+app.use(bodyParser.json())
+app.use(
+  bodyParser.urlencoded({
+    extended: true,
+  })
+)
 
 //crear un proyecto npm
 //npm init
@@ -36,6 +45,9 @@ let cars = [
 app.get('/', (req, res) => {
   res.send('Hola Mundo esto es Colombia XXX')
 })
+
+app.get('/users', db.getUsers)
+app.post('/users', db.createUser)
 
 app.get('/healt', (req, res) => {
     res.json({status: "Alive!"})
