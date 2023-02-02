@@ -1,6 +1,6 @@
 export default class Tax{
-    constructor(subTotalValue,personita){
-        this.taxes = this.selectTaxes(subTotalValue,personita)    
+    constructor(subTotalValue,){
+        return this.iva(subTotalValue) + this.tax_by_breathe(subTotalValue) + this.toll(subTotalValue) + this.iva(subTotalValue) + this.reteica(subTotalValue) + this.alimentosUltraprocesados(subTotalValue) + this.toll(subTotalValue) 
     }
 
     //todos
@@ -36,21 +36,5 @@ export default class Tax{
         let tax = subTotal * 0.03
         // console.log("Tax:: Toll total "+ subTotal + " toll " + tax)
         return tax
-    }
-
-    taxNaturalPerson(subTotalValue){
-        return this.iva(subTotalValue) + this.tax_by_breathe(subTotalValue) + this.toll(subTotalValue) 
-    }
-
-    taxCompany(subTotalValue){
-        return this.iva(subTotalValue) + this.reteica(subTotalValue) + this.alimentosUltraprocesados(subTotalValue) + this.toll(subTotalValue) 
-    }
-
-    selectTaxes(subTotalValue,legalIdType){
-        if (legalIdType["legal_id_type"] == "nit"){
-            return this.taxCompany(subTotalValue)
-        }else {
-            return this.taxNaturalPerson(subTotalValue)
-        }
     }
 }
