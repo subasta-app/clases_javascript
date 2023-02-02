@@ -2,7 +2,7 @@ import Bill from './bills/index.js'
 import BillSerializer from './bills/serializer.js'
 
 let customerData = {
-    "name":"Joselito",
+    "name":"Joselito se fue",
     "address":"calle falsa 123",
     "phone":"3161232323",
     "legal_id_type":"nit",
