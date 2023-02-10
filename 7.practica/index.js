@@ -2,11 +2,9 @@ import Bill from './bills/index.js'
 import BillSerializer from './bills/serializer.js'
 
 let customerData = {
-    "name":"Joselito",
+    "name":"Joselito se fue",
     "address":"calle falsa 123",
     "phone":"3161232323",
-    "legal_id_type":"nit",
-    "legal_id":"98347678234"
     // ingrese tipo documento y numero de documento legal_id_type(cc,ce,pp,nit) legal_id
     // el programa debe reconocer si es empresa o persona natural y solo colocar los impuestos que corresponde a cada uno
 }
