@@ -27,6 +27,8 @@ const beagle = new Dog('Paul','tres colores','beagle');
 console.log(beagle.bark());
 
 
+//POO
+
 class TwoNumbersOperation {
     constructor(fristValue,secondValue){ //initializer
         this.fristValue = fristValue;

@@ -24,7 +24,6 @@ const getUsers = (request, response) => {
     let id = data.id
     let name = data.name
     let email = data.email
-    console.log(`INSERT INTO users (id,name,email) values (${id},'${name}','${email}')`)
     pool.query(`INSERT INTO users (id,name,email) values (${id},'${name}','${email}')`, (error, results) => {
       if (error) {
         response.status(500).error(`Invalid data`)
