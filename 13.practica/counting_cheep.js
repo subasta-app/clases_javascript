@@ -17,4 +17,4 @@ let cheeps = [true,  true,  true,  false,
     false, false, true,  true, true ,false]
 
 
-    console.log(countSheeps(cheeps))
+console.log(countSheeps(cheeps))
